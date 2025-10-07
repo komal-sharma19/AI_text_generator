@@ -31,7 +31,6 @@ An interactive web application that analyzes the sentiment of a user's prompt an
 * **NLP Models**: Hugging Face Transformers
     * **Sentiment Analysis**: `distilbert-base-uncased-finetuned-sst-2-english`
     * **Text Generation**: `gpt2`
-* **Styling**: Custom CSS for background image and overlays.
 
 ---
 
@@ -84,7 +83,7 @@ The application will open in your default web browser.
 
 ## 🤔 Challenges & Learnings
 
-* **Background Image Integration**: A key challenge was displaying a local background image in a web-based framework. The solution involved encoding the image file into a **Base64** string and embedding it directly into the CSS via an f-string, ensuring it's self-contained and works upon deployment.
+**Base64** string and embedding it directly into the CSS via an f-string, ensuring it's self-contained and works upon deployment.
 * **Output Relevance**: The initial text generation model (`gpt2`) included the entire input prompt in its output, making the results irrelevant. This was solved by programmatically cleaning the generated text to remove the prompt, leaving only the newly created content.
 
 ---
