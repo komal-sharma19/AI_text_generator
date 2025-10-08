@@ -14,6 +14,9 @@ An interactive web application that analyzes the sentiment of a user's prompt an
 
 ---
 
+## Demo
+https://aitextgenerator.streamlit.app/
+
 ## ✨ Key Features
 
 * **Sentiment Analysis**: Automatically detects if the input text is **Positive**, **Negative**, or **Neutral**.
